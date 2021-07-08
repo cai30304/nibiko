@@ -35,9 +35,9 @@ class FrontController extends Controller
     }
 
     public function contact_us(Request $request) {
-        $validate = Validator::make(Input::all(), [
-            'g-recaptcha-response' => 'required|captcha'
-        ]);
+        // $validate = Validator::make(Input::all(), [
+        //     'g-recaptcha-response' => 'required|captcha'
+        // ]);
         ContactUs::create($request->all());
         return redirect('/');
     }

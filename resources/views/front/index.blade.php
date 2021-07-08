@@ -174,14 +174,14 @@
                                 <div class="form_title">
                                     Enquiry
                                 </div>
-                                <form action="" method="post">
-
+                                <form action="/contact_us" method="post">
+                                    @csrf
                                     <div class="input-group mb-3">
                                         <div class="col-12 col-md-2">
                                             <span class="input-group-text" id="inputGroup-sizing-default">Company Name:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="companyName">
                                         </div>
                                     </div>
 
@@ -190,16 +190,7 @@
                                             <span class="input-group-text">Company Website:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group mb-3">
-                                        <div class="col-12 col-md-2">
-                                            <span class="input-group-text" id="inputGroup-sizing-default">Company Name:</span>
-                                        </div>
-                                        <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="companyWebsite">
                                         </div>
                                     </div>
 
@@ -208,13 +199,13 @@
                                             <span class="input-group-text">Country:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="country">
                                         </div>
                                         <div class="col-12 col-md-2">
                                             <span class="input-group-text">Business Type:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="business">
                                         </div>
                                     </div>
 
@@ -223,13 +214,13 @@
                                             <span class="input-group-text">Contact Neame:First:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="firstName">
                                         </div>
                                         <div class="col-12 col-md-2">
                                             <span class="input-group-text">Last:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="lastName">
                                         </div>
                                     </div>
 
@@ -238,7 +229,7 @@
                                             <span class="input-group-text" id="inputGroup-sizing-default">E-mail:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="email">
                                         </div>
                                     </div>
 
@@ -247,7 +238,7 @@
                                             <span class="input-group-text">TEL:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="phone">
                                         </div>
                                     </div>
 
@@ -256,7 +247,7 @@
                                             <span class="input-group-text">FAX:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="fax">
                                         </div>
                                     </div>
 
@@ -265,18 +256,18 @@
                                             <span class="input-group-text">Address:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="address">
                                         </div>
                                     </div>
 
                                     <div class="border py-2">
                                         <span class="input-group-text">Message:</span>
                                         <div class="input-group text_area">
-                                            <textarea class="form-control" aria-label="With textarea" height="300px"></textarea>
+                                            <textarea class="form-control" aria-label="With textarea" height="300px" required name="content"></textarea>
                                         </div>
                                     </div>
 
-                                    {!! app('captcha')->render(); !!}
+                                    {{-- {!! app('captcha')->render(); !!} --}}
                                     <button class="btn form_button" type="submit">＞</button>
                                 </form>
                             </div>

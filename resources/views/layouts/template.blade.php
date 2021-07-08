@@ -56,7 +56,7 @@
                         <div class="d-none d-md-block h-100">
                             <ul class="p-0 m-0 links row">
                                 <li class="link col text-center">
-                                    <a href="/#about_us">About YNX</a>
+                                    <a href="/#about_us">About Us</a>
                                 </li>
                                 <li class="link col text-center">
                                     <a href="/#news">NEWS</a>
@@ -78,7 +78,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <li>
                                         <a class="dropdown-item" href="#about_us">
-                                            About YNX
+                                            About Us
                                         </a>
                                     </li>
                                     <li>

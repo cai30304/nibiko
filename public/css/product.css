@@ -235,15 +235,21 @@ main .products .product .product_detail pre {
 }
 
 footer {
-  background-color: rgb(254, 202, 10);
-  padding: 5px 0;
-  text-align: center;
-}
+    background-color: #00A1E9;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+  }
 
-footer .footer_info {
-  letter-spacing: .1rem;
-  font-weight: bold;
-  font-size: 12px;
-  color: #1E2188;
-}
+  footer .footer_info {
+    letter-spacing: .1rem;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  footer .footer_title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
 /*# sourceMappingURL=product.css.map */
