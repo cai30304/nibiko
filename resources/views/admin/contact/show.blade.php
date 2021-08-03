@@ -67,7 +67,7 @@
                                     <input id="country_name" class="form-control" type="text" readonly value="{{$contact_info->email}}">
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <label for="country_name" class="col-2 col-form-label">phone</label>
                                 <div class="col-10">
                                     <input id="country_name" class="form-control" type="text" readonly value="{{$contact_info->phone}}">
@@ -86,7 +86,7 @@
                                 <div class="col-10">
                                     <input id="country_name" class="form-control" type="text" readonly value="{{$contact_info->address}}">
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <div class="form-group row">
                                 <label for="content" class="col-2 col-form-label">Message</label>

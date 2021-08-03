@@ -19,6 +19,11 @@
         width: calc(100% - 120px);
     }
 
+    main #contact_us form .input-group-outline {
+        border: 1px solid white;
+    }
+
+
     @media(max-width: 575px) {
         main #news .container .link .news_pic {
             width: 90px;
@@ -181,7 +186,7 @@
                                             <span class="input-group-text" id="inputGroup-sizing-default">Company Name:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="companyName">
+                                            <input type="text" class="form-control input-group-outline" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="companyName">
                                         </div>
                                     </div>
 
@@ -190,7 +195,7 @@
                                             <span class="input-group-text">Company Website:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="companyWebsite">
+                                            <input type="text" class="form-control input-group-outline" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="companyWebsite">
                                         </div>
                                     </div>
 
@@ -199,28 +204,28 @@
                                             <span class="input-group-text">Country:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="country">
+                                            <input type="text" class="form-control input-group-outline" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="country">
                                         </div>
                                         <div class="col-12 col-md-2">
                                             <span class="input-group-text">Business Type:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="business">
+                                            <input type="text" class="form-control input-group-outline" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="business">
                                         </div>
                                     </div>
 
                                     <div class="input-group mb-3">
                                         <div class="col-12 col-md-2">
-                                            <span class="input-group-text">Contact Neame:First:</span>
+                                            <span class="input-group-text">Contact Name First:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="firstName">
+                                            <input type="text" class="form-control input-group-outline" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="firstName">
                                         </div>
                                         <div class="col-12 col-md-2">
                                             <span class="input-group-text">Last:</span>
                                         </div>
                                         <div class="col-12 col-md-4">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="lastName">
+                                            <input type="text" class="form-control input-group-outline" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="lastName">
                                         </div>
                                     </div>
 
@@ -229,34 +234,7 @@
                                             <span class="input-group-text" id="inputGroup-sizing-default">E-mail:</span>
                                         </div>
                                         <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="email">
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group mb-3">
-                                        <div class="col-12 col-md-2">
-                                            <span class="input-group-text">TEL:</span>
-                                        </div>
-                                        <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="phone">
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group mb-3">
-                                        <div class="col-12 col-md-2">
-                                            <span class="input-group-text">FAX:</span>
-                                        </div>
-                                        <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="fax">
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group mb-3">
-                                        <div class="col-12 col-md-2">
-                                            <span class="input-group-text">Address:</span>
-                                        </div>
-                                        <div class="col-12 col-md-10">
-                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="address">
+                                            <input type="text" class="form-control input-group-outline" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required name="email">
                                         </div>
                                     </div>
 

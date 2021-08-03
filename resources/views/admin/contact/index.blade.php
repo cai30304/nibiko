@@ -19,7 +19,7 @@
                         <thead>
                         <tr>
                             <th>姓名</th>
-                            <th>電話</th>
+                            <th>公司名稱</th>
                             <th>信箱</th>
                             <th>來信時間</th>
                             <th>功能</th>
@@ -29,7 +29,7 @@
                         @foreach($lists as $list)
                             <tr>
                                 <td>{{$list->firstName.$list->lastName}}</td>
-                                <td>{{$list->phone}}</td>
+                                <td>{{$list->companyName}}</td>
                                 <td>{{$list->email}}</td>
                                 <td>{{$list->created_at}}</td>
                                 <td>
