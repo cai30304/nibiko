@@ -1,8 +1,7 @@
 @extends('layouts.template')
 
 @section('recaptcha')
-    {{-- google recaptcha v3 --}}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 @endsection
 
 @section('css')
@@ -38,7 +37,7 @@
 @section('content')
     <main>
         <section id="banner">
-            <div class="swiper-container">
+            <div class="swiper-container" style="overflow-x: hidden">
                 <div class="swiper-wrapper">
                     @foreach($banners as $banner)
                         <div class="swiper-slide">
@@ -245,7 +244,7 @@
                                         </div>
                                     </div>
 
-                                    {{-- {!! app('captcha')->render(); !!} --}}
+                                    <div class="g-recaptcha" data-sitekey="6LfJjvMfAAAAAJns6znQ3dAh2QFC2ryo3h5fK9SA"></div>
                                     <button class="btn form_button" type="submit">＞</button>
                                 </form>
                             </div>

@@ -42,7 +42,6 @@ Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail'
 
 Route::get('/admin', 'HomeController@index')->name('home');
 
-
 // 網站後台
 Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index');
