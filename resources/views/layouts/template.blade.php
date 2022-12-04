@@ -108,10 +108,10 @@
     <footer>
         <div class="container">
             <div class="footer_title">
-                NI BI KO INTERNATIONAL TRADING CO.,LTD.
+                HMIT TRADING CO.
             </div>
             <div class="footer_info">
-                No.1,Shangshan Rd.,Daya Dist.,Taichung City,42878 Taiwan<br>TEL:+886-4-25674668 FAX:+886-4-25671708<br>E-mail:nibiko.tw@gmail.com<br>Copyright © 2021 NI BI KO INTERNATIONAL TRADING CO.,LTD All Rights Reserved.
+                13F-5, No.100, Sec. 1, Zhongqing Rd., North Dist., Taichung City 404, Taiwan<br>TEL:+886-4-8535499 FAX:+886-4-22083823<br>E-mail:hmitivy@gmail.com<br>Copyright © 2021 HMIT TRADING CO. All Rights Reserved.
             </div>
         </div>
     </footer>
