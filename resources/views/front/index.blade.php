@@ -54,7 +54,7 @@
                     <div class="col-12 col-md-4">
                         <div class="company">
                             <span class="title">
-                                About NI BI KO
+                                About HMIT
                             </span>
                             <div class="my-1 my-sm-5 px-3">
                                 <img width="100%" class="lazy" data-src="/img/about_us.jpg" src="/img/about_us.jpg">
@@ -63,12 +63,12 @@
                     </div>
                     <div class="col-12 col-md-8">
                         <div class="title">
-                            Your best partner,<br class="d-xl-none"> NI BI KO
+                            Your best partner,<br class="d-xl-none"> HMIT
                         </div>
                         <div class="text">
                             <p>
                                 Thank you for visiting our website.<br><br>
-                                NI BI KO International Trading Co.,Ltd. was a part of Ynx Ching Enterprise Co.,Ltd. Who as the leading manufacture of plastic cable ties, silicone cable ties, stainless steel cable ties, cable ties hand tools in Taiwan.
+                                HMIT Trading Co.,Ltd.Who as the leading manufacture of plastic cable ties, silicone cable ties, stainless steel cable ties, cable ties hand tools in Taiwan.
                                 In this era of economic leadership, "Time is Money"
                                 The least time to find the product you need is undoubtedly an important part.
                                 We uphold the tenet of customer first and help customers find the most suitable products.Quality first is our highest guideline
@@ -76,7 +76,7 @@
                                 THANK YOU<br><br>
 
                                 CEO<br>
-                                Estla Hsu
+                                Ivy Liu
 
                             </p>
                         </div>
