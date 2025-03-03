@@ -39,7 +39,7 @@
                     <div class="left_side col-6 col-md-4">
                         <div class="logo">
                             <a class="w-100" href="/">
-                                <img width="100%" class="lazy" data-src="/img/logo.png" src="/img/logo.png" alt="ynxching">
+                                <img width="100%" class="lazy" data-src="/img/logo.jpg" src="/img/logo.jpg" alt="ynxching">
                             </a>
                         </div>
                     </div>
