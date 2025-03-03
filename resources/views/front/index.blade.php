@@ -68,11 +68,11 @@
                         <div class="text">
                             <p>
                                 Thank you for visiting our website.<br><br>
-                                HMIT Trading Co.,Ltd.Who as the leading manufacture of plastic cable ties, silicone cable ties, stainless steel cable ties, cable ties hand tools in Taiwan.
-                                In this era of economic leadership, "Time is Money"
-                                The least time to find the product you need is undoubtedly an important part.
-                                We uphold the tenet of customer first and help customers find the most suitable products.Quality first is our highest guideline
-                                Looking forward to your inquiry<br><br>
+                                HMIT Trading Co. Who as the leading manufacture cable ties,hand tools,Lighting in
+                                Taiwan. In this era of economic leadership, &quot;Time is Money&quot; The least time to find
+                                the product you need is undoubtedly an important part. We uphold the tenet of
+                                customer first and help customers find the most suitable products.Quality first is our
+                                highest guideline Looking forward to your inquiry<br><br>
                                 THANK YOU<br><br>
 
                                 CEO<br>
@@ -112,9 +112,9 @@
                         </div>
                         <div class="col-md-3 pb-5 pb-md-0">
                             <div class="news_pic lazy">
-                                <img src="\img\agruculture_small.jpg" alt="Application-Agriculture">
+                                <img src="\img\Lighting.jpg" alt="Lighting">
                             </div>
-                            <div class="news_title text-center">Agriculture</div>
+                            <div class="news_title text-center">Lighting</div>
                         </div>
                     </div>
                 </div>
